@@ -2,10 +2,12 @@
 
 TrinsMeter is an elegant iOS app that helps you track your public transportation usage in Turin and calculate your CO₂ savings. Built with SwiftUI and focused on providing a beautiful, intuitive user experience.
 
-![App Screenshot](screenshots/1.png)
-![App Screenshot](screenshots/2.png)
-![App Screenshot](screenshots/3.png)
 
+<p align="center">
+  <img src="screenshots/1.png" width="300" />
+  <img src="screenshots/2.png" width="300" />
+  <img src="screenshots/3.png" width="300" />
+</p>
 
 
 ## Features ✨
