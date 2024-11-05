@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7B9950CD2CDA0A7F00617CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9950B22CDA0A7C00617CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B9950B92CDA0A7C00617CC6;
+			remoteInfo = TrinsMeter;
+		};
+		7B9950D72CDA0A7F00617CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9950B22CDA0A7C00617CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B9950B92CDA0A7C00617CC6;
+			remoteInfo = TrinsMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B9950BA2CDA0A7D00617CC6 /* TrinsMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinsMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9950CC2CDA0A7F00617CC6 /* TrinsMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinsMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9950D62CDA0A7F00617CC6 /* TrinsMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinsMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7B9950CF2CDA0A7F00617CC6 /* TrinsMeterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrinsMeterTests;
+			sourceTree = "<group>";
+		};
+		7B9950D92CDA0A7F00617CC6 /* TrinsMeterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrinsMeterUITests;
+			sourceTree = "<group>";
+		};
+		7BBF15452CDA7E40003B5F09 /* TrinsMeter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrinsMeter;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B9950B72CDA0A7C00617CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950C92CDA0A7F00617CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950D32CDA0A7F00617CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9950B12CDA0A7C00617CC6 = {
+			isa = PBXGroup;
+			children = (
+				7BBF15452CDA7E40003B5F09 /* TrinsMeter */,
+				7B9950CF2CDA0A7F00617CC6 /* TrinsMeterTests */,
+				7B9950D92CDA0A7F00617CC6 /* TrinsMeterUITests */,
+				7B9950BB2CDA0A7D00617CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B9950BB2CDA0A7D00617CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9950BA2CDA0A7D00617CC6 /* TrinsMeter.app */,
+				7B9950CC2CDA0A7F00617CC6 /* TrinsMeterTests.xctest */,
+				7B9950D62CDA0A7F00617CC6 /* TrinsMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B9950B92CDA0A7C00617CC6 /* TrinsMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9950E02CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeter" */;
+			buildPhases = (
+				7B9950B62CDA0A7C00617CC6 /* Sources */,
+				7B9950B72CDA0A7C00617CC6 /* Frameworks */,
+				7B9950B82CDA0A7C00617CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7BBF15452CDA7E40003B5F09 /* TrinsMeter */,
+			);
+			name = TrinsMeter;
+			packageProductDependencies = (
+			);
+			productName = TrinsMeter;
+			productReference = 7B9950BA2CDA0A7D00617CC6 /* TrinsMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B9950CB2CDA0A7F00617CC6 /* TrinsMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9950E32CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeterTests" */;
+			buildPhases = (
+				7B9950C82CDA0A7F00617CC6 /* Sources */,
+				7B9950C92CDA0A7F00617CC6 /* Frameworks */,
+				7B9950CA2CDA0A7F00617CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B9950CE2CDA0A7F00617CC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7B9950CF2CDA0A7F00617CC6 /* TrinsMeterTests */,
+			);
+			name = TrinsMeterTests;
+			packageProductDependencies = (
+			);
+			productName = TrinsMeterTests;
+			productReference = 7B9950CC2CDA0A7F00617CC6 /* TrinsMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B9950D52CDA0A7F00617CC6 /* TrinsMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9950E62CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeterUITests" */;
+			buildPhases = (
+				7B9950D22CDA0A7F00617CC6 /* Sources */,
+				7B9950D32CDA0A7F00617CC6 /* Frameworks */,
+				7B9950D42CDA0A7F00617CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B9950D82CDA0A7F00617CC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7B9950D92CDA0A7F00617CC6 /* TrinsMeterUITests */,
+			);
+			name = TrinsMeterUITests;
+			packageProductDependencies = (
+			);
+			productName = TrinsMeterUITests;
+			productReference = 7B9950D62CDA0A7F00617CC6 /* TrinsMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9950B22CDA0A7C00617CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7B9950B92CDA0A7C00617CC6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					7B9950CB2CDA0A7F00617CC6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7B9950B92CDA0A7C00617CC6;
+					};
+					7B9950D52CDA0A7F00617CC6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7B9950B92CDA0A7C00617CC6;
+					};
+				};
+			};
+			buildConfigurationList = 7B9950B52CDA0A7C00617CC6 /* Build configuration list for PBXProject "TrinsMeter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B9950B12CDA0A7C00617CC6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7B9950BB2CDA0A7D00617CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B9950B92CDA0A7C00617CC6 /* TrinsMeter */,
+				7B9950CB2CDA0A7F00617CC6 /* TrinsMeterTests */,
+				7B9950D52CDA0A7F00617CC6 /* TrinsMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B9950B82CDA0A7C00617CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950CA2CDA0A7F00617CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950D42CDA0A7F00617CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B9950B62CDA0A7C00617CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950C82CDA0A7F00617CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9950D22CDA0A7F00617CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B9950CE2CDA0A7F00617CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B9950B92CDA0A7C00617CC6 /* TrinsMeter */;
+			targetProxy = 7B9950CD2CDA0A7F00617CC6 /* PBXContainerItemProxy */;
+		};
+		7B9950D82CDA0A7F00617CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B9950B92CDA0A7C00617CC6 /* TrinsMeter */;
+			targetProxy = 7B9950D72CDA0A7F00617CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B9950DE2CDA0A7F00617CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B9950DF2CDA0A7F00617CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B9950E12CDA0A7F00617CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrinsMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B9950E22CDA0A7F00617CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrinsMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B9950E42CDA0A7F00617CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinsMeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrinsMeter";
+			};
+			name = Debug;
+		};
+		7B9950E52CDA0A7F00617CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinsMeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrinsMeter";
+			};
+			name = Release;
+		};
+		7B9950E72CDA0A7F00617CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinsMeter;
+			};
+			name = Debug;
+		};
+		7B9950E82CDA0A7F00617CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUAL45N3ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mrdionesalvi.TrinsMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinsMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B9950B52CDA0A7C00617CC6 /* Build configuration list for PBXProject "TrinsMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9950DE2CDA0A7F00617CC6 /* Debug */,
+				7B9950DF2CDA0A7F00617CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9950E02CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9950E12CDA0A7F00617CC6 /* Debug */,
+				7B9950E22CDA0A7F00617CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9950E32CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9950E42CDA0A7F00617CC6 /* Debug */,
+				7B9950E52CDA0A7F00617CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9950E62CDA0A7F00617CC6 /* Build configuration list for PBXNativeTarget "TrinsMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9950E72CDA0A7F00617CC6 /* Debug */,
+				7B9950E82CDA0A7F00617CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9950B22CDA0A7C00617CC6 /* Project object */;
+}
